@@ -1,0 +1,81 @@
+/* list */
+.list_box {
+  width: 90%;
+  height: 90%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 0px 5px 0px rgba(150, 145, 150, 0.22);
+  -moz-box-shadow: 1px 0px 5px 0px rgba(150, 145, 150, 0.22);
+  box-shadow: 1px 0px 5px 0px rgba(150, 145, 150, 0.22);
+}
+
+table {
+  font-size: 14px;
+}
+
+.user_table_header {
+  -webkit-box-shadow: 1px 0px 5px 0px rgba(150, 145, 150, 0.23);
+  -moz-box-shadow: 1px 0px 5px 0px rgba(150, 145, 150, 0.23);
+  box-shadow: 1px 0px 5px 0px rgba(150, 145, 150, 0.23);
+}
+
+.user_table_header tr td {
+  color: 838587;
+}
+
+table {
+  margin-bottom: 0;
+}
+
+.user_table_header tr th:first-child,
+td:first-child {
+  padding: 1.2em 2em;
+}
+
+.list_box tr td:first-child {
+  display: flex;
+  border-right: 1px solid lightgrey;
+  align-content: center;
+  min-width: 26em;
+}
+
+.list_box tr td:first-child:hover .list_delete_user {
+  display: block;
+}
+
+.list_box tr td:last-child {
+  padding: 1.2em 2em;
+  min-width: 100%;
+  -webkit-box-shadow: inset 3px 2px 0px 0px rgba(150, 145, 150, 0.23);
+  -moz-box-shadow: inset 3px 2px 0px 0px rgba(150, 145, 150, 0.23);
+  box-shadow: inset 3px 0px 2px 0px rgba(150, 145, 150, 0.23);
+}
+
+.list_box tr td > div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+}
+
+.list_user_photo {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+}
+
+.list_user_name {
+  font-weight: bold;
+  color: #838587;
+}
+
+.list_delete_user {
+  color: #fab43d;
+  display: none;
+  cursor: pointer;
+}
+
+/* not found */
+
+.not_found tr td:first-child {
+  box-shadow: none;
+  border:none;
+}

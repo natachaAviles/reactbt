@@ -2,6 +2,40 @@
   "name": "beeetrack-javascript-test",
   "version": "1.0.0",
   "devDependencies": {
-    "json-server": "^0.11.2"
-  }
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "json-server": "^0.11.2",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "redux": "^4.0.4"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --port=8888"
+  },
+  "description": "La siguiente prueba busca evaluar los conocimientos en javascript, css y html. Para consultas, enviar un correo a [dev@beetrack.com](mailto:dev@beetrack.com).\r ### Descripción e instalación\r Se adjunta un proyecto de nodejs, con una pequeña base de datos y una api ya desarrollada. Para ejecutar el proyecto, una vez descargado hay que correr las siguientes líneas por línea de comandos en el root del proyecto:\r ```\r npm install\r node server.js\r ```\r Los requisitos son únicamente tener instalado una versión de `node >= 4` y `npm`.\r Si todo funcionó correctamente, va a correr el servidor, y vas a poder acceder a través de cualquier navegador en la dirección: [localhost:3000](http://localhost:3000). Se debería visualizar el html ubicado en `public/index.html`.\r ### Desarrollo\r El objectivo del test es desarrollar 2 vistas utilizando la api incluida en el proyecto.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beetrack/frontend-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beetrack/frontend-test/issues"
+  },
+  "homepage": "https://github.com/Beetrack/frontend-test#readme"
 }
